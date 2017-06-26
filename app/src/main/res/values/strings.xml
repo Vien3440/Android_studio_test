@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MonSuperClientRest</string>
+
+    <!--Vue login -->
+    <string name="boton_login">Login</string>
+    <string name="userName">Nom user</string>
+    <string name="userPass">Pass</string>
+
+    <!--Vue Liste -->
+
+
+</resources>
