@@ -1,12 +1,13 @@
 <resources>
     <string name="app_name">MonSuperClientRest</string>
 
-    <!--Vue login -->
+    <!--layaout login -->
     <string name="boton_login">Login</string>
     <string name="userName">Nom user</string>
     <string name="userPass">Pass</string>
 
-    <!--Vue Liste -->
-
+    <!--layaout Liste -->
+    <string name="text_titre_top">Bienvenue</string>
+    <string name="text_titre_bottom">Ma liste</string>
 
 </resources>

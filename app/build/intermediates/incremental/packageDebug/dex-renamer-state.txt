@@ -1,0 +1,7 @@
+#Mon Jun 26 22:54:03 CEST 2017
+base.0=/root/AndroidStudioProjects/MonSuperClientRest/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_90a95cfa689ddd79ab10dc88eb918a19f78c2a1d
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/root/AndroidStudioProjects/MonSuperClientRest/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_11d5d867b4fc9a865d228ea86cf393eecc27ca1a/classes.dex
+base.1=/root/AndroidStudioProjects/MonSuperClientRest/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_11d5d867b4fc9a865d228ea86cf393eecc27ca1a
+file.0=/root/AndroidStudioProjects/MonSuperClientRest/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_90a95cfa689ddd79ab10dc88eb918a19f78c2a1d/classes.dex
