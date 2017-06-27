@@ -1,4 +1,4 @@
-#Mon Jun 26 22:54:03 CEST 2017
+#Tue Jun 27 14:24:08 CEST 2017
 base.0=/root/AndroidStudioProjects/MonSuperClientRest/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_90a95cfa689ddd79ab10dc88eb918a19f78c2a1d
 renamed.1=classes.dex
 renamed.0=classes2.dex

@@ -443,8 +443,8 @@
     <string name="boton_login">Login</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="text_titre_bottom">Salut</string>
-    <string name="text_titre_top">Salut</string>
+    <string name="text_titre_bottom">Ma liste</string>
+    <string name="text_titre_top">Bienvenue</string>
     <string name="userName">Nom user</string>
     <string name="userPass">Pass</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

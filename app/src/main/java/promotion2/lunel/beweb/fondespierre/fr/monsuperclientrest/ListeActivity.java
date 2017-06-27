@@ -8,7 +8,12 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import org.json.JSONArray;
 import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import promotion2.lunel.beweb.fondespierre.fr.monsuperclientrest.models.Dao;
 import promotion2.lunel.beweb.fondespierre.fr.monsuperclientrest.models.DaoDur;
@@ -34,13 +39,43 @@ public class ListeActivity extends AppCompatActivity {
 
         ListView listView = (ListView)findViewById(R.id.liste);
 
-        ArrayAdapter adapter = null;
+        JSONAdapter  adapter = null;
+
         try {
-            adapter = new ArrayAdapter(this,android.R.layout.simple_list_item_1,dao.getAllAsArrayListe());
+            adapter = new JSONAdapter(this, R.layout.item_list,getListAsJson());
         } catch (JSONException e) {
             e.printStackTrace();
         }
 
+
         listView.setAdapter(adapter);
+
+    }
+    private List<String> getListe() {
+
+        List<String> liste = new ArrayList<>();
+
+        liste.add("Papy tchoulo");
+        liste.add("Papy tchoulo");
+        liste.add("Papy tchoulo");
+        liste.add("Papy choulo");
+        liste.add("Papy choulo");
+        liste.add("Papy choulo");
+        liste.add("Papy choulo");
+        liste.add("Papy choulo");
+        liste.add("Papy choulo");
+
+        return liste;
+    }
+    private JSONArray getListAsJson() throws JSONException {
+        JSONArray liste = new JSONArray();
+
+        for  (int i=0 ; i< 10 ; i++){
+            JSONObject o = new JSONObject();
+            o.put("nom", "le nom est : " + i );
+            o.put("id",i);
+            liste.put(o);
+        }
+return liste;
     }
 }

@@ -20,7 +20,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity android:name="promotion2.lunel.beweb.fondespierre.fr.monsuperclientrest.MainActivity" >
+
+            <!-- Crée une intention -->
             <intent-filter>
+
+                <!-- Main est la 1er action du systheme -->
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
